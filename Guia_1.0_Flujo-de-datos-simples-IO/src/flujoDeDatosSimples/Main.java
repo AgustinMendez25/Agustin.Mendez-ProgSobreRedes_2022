@@ -32,28 +32,28 @@ public class Main {
                     s.escribirConPrintStream("Programa finalizado");
                     break;
                 case 1:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1a();
                     break;
                 case 2:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1b();
                     break;
                 case 3:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1c();
                     break;
                 case 4:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1d();
                     break;
                 case 5:
                     s.ej1e();
                     break;
                 case 6:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1f();
                     break;
                 case 7:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.ej1g();
                     break;
                 case 8:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2a();
                     break;
                 case 9:
                     s.escribirConPrintStream("Programa finalizado");
@@ -106,7 +106,7 @@ public class Main {
     
     public static void mostrarMenu(){
         s.escribirConPrintStream("-----------------MENÚ-----------------");
-        s.escribirConPrintStream("---------Ejercicio 1---------");
+        s.escribirConPrintStream("-------------Ejercicio 1-------------");
         s.escribirConPrintStream("1 - Ejercicio 1A");
         s.escribirConPrintStream("2 - Ejercicio 1B");
         s.escribirConPrintStream("3 - Ejercicio 1C");
@@ -114,7 +114,7 @@ public class Main {
         s.escribirConPrintStream("5 - Ejercicio 1E");
         s.escribirConPrintStream("6 - Ejercicio 1F");
         s.escribirConPrintStream("7 - Ejercicio 1G");
-        s.escribirConPrintStream("---------Ejercicio 2---------");
+        s.escribirConPrintStream("-------------Ejercicio 2-------------");
         s.escribirConPrintStream("8 - Ejercicio 2A");
         s.escribirConPrintStream("9 - Ejercicio 2B");
         s.escribirConPrintStream("10 - Ejercicio 2C");
@@ -122,7 +122,7 @@ public class Main {
         s.escribirConPrintStream("12 - Ejercicio 2F");
         s.escribirConPrintStream("13 - Ejercicio 2G");
         s.escribirConPrintStream("14 - Ejercicio 2H");
-        s.escribirConPrintStream("---------Ejercicio 2---------");
+        s.escribirConPrintStream("-------------Ejercicio 2-------------");
         s.escribirConPrintStream("15 - Ejercicio 3A");
         s.escribirConPrintStream("16 - Ejercicio 3B");
         s.escribirConPrintStream("17 - Ejercicio 3C");

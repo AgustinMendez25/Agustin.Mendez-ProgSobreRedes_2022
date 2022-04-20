@@ -139,4 +139,150 @@ public class ClaseEjerciciosIO {
         escribirConPrintStream(dia + " días / Hora = " + horas + ":" + minutos + ":" + segundos);
     }
     
+    /**
+     * Ej 1f: Dado el precio de un artículo, la computadora muestra los valores a
+     * pagar según cada plan. Una casa de artículos para el hogar ofrece a sus clientes los siguientes planes de pago:
+     * i. Plan 1: 100% al contado. Se hace el 10% de descuento sobre el precio publicado.
+     * ii. Plan 2: 50% al contado y el resto en 2 cuotas iguales. El precio publicado se incrementa en un 10%.
+     * iii. Plan 3: 25% al contado y el resto en 5 cuotas iguales. El precio publicado se incrementa en un 15%.
+     * iv. Plan 4: Totalmente financiado en 8 cuotas. El 60% se reparte en partes iguales en las primeras 4 cuotas
+     * y el resto se reparte en partes iguales en las últimas 4 cuotas. El precio publicado se incrementa en un 25%.
+     */
+    public void ej1f(){
+        escribirConPrintStream("Ingrese el precio: ");
+        float precio = Float.parseFloat(leerConSystem());
+        
+        /*Plan 1*/
+        double resultado1 = precio - precio*0.1;
+        
+        /*Plan 2*/
+        double resultado2 = (precio + precio*0.1);
+        double contado2 = resultado2/2;
+        double cuotaPlan2 = resultado2/4;
+        
+        /*Plan 3*/
+        double resultado3 = (precio + precio*0.15);
+        double contado3 = resultado2/4;
+        double cuotaPlan3 = (resultado3*0.75)/5;
+        
+        /*Plan 4*/
+        double resultado4 = (precio + precio*0.25);
+        double cuotaPlan4 = (resultado4*0.60)/4;
+        double cuota2Plan4 = (resultado4*0.40)/4;
+        
+        escribirConPrintStream("Plan 1: " + resultado1);
+        
+        escribirConPrintStream("Plan 2: "
+                + "\n - Contado: " + contado2
+                + "\n - Cuota 1: " + cuotaPlan2
+                + "\n - Cuota 2: " + cuotaPlan2
+                + "\n - Total: " + resultado2);
+        
+        escribirConPrintStream("Plan 3: "
+                + "\n - Contado: " + contado3
+                + "\n - 5 cuotas de: " + cuotaPlan3
+                + "\n - Total: " + resultado3);
+        
+        
+        escribirConPrintStream("Plan 4: "
+                + "\n - Primeras 4 cuotas de: " + cuotaPlan4
+                + "\n - Restantes 4 cuotas de: " + cuota2Plan4
+                + "\n - Total: " + resultado4);
+         
+        
+    }
+    
+    /**
+     * Ej 1g: Dado el signo zodiacal del usuario, la computadora muestra su mes de nacimiento aproximado.
+     */
+    public void ej1g(){
+        escribirConPrintStream("Ingrese su signo zodiacal: ");
+        String signo = leerConSystem();
+        signo = signo.toLowerCase();
+        
+        switch(signo){
+            case "aries":
+                escribirConPrintStream("Naciste en marzo o abril");
+                break;
+            case "tauro":
+                escribirConPrintStream("Naciste en abril o mayo");
+                break;
+            case "geminis":
+                escribirConPrintStream("Naciste en mayo o junio");
+                break;
+            case "cancer":
+                escribirConPrintStream("Naciste en junio o julio");
+                break;
+            case "leo":
+                escribirConPrintStream("Naciste en julio o agosto");
+                break;
+            case "virgo":
+                escribirConPrintStream("Naciste en agosto o septiembre");
+                break;
+            case "libra":
+                escribirConPrintStream("Naciste en septiembre u octubre");
+                break;
+            case "escorpio":
+                escribirConPrintStream("Naciste en octubre o noviembre");
+                break;
+            case "sagitario":
+                escribirConPrintStream("Naciste en noviembre o diciembre");
+                break;
+            case "capricornio":
+                escribirConPrintStream("Naciste en diciembre o enero");
+                break;
+            case "acuario":
+                escribirConPrintStream("Naciste en enero o febrero");
+                break;
+            case "piscis":
+                escribirConPrintStream("Naciste en febrero o marzo");
+                break;
+            
+        }
+        
+    }
+    
+    /**
+     * Dados tres apellidos, la computadora los muestra ordenados alfabéticamente.
+     */
+    public void Ej2a(){
+        String[] apellidos = new String[3];
+        
+        escribirConPrintStream("Ingrese el 1er apellido: ");
+        apellidos[0] = leerConBuffer();
+        escribirConPrintStream("Ingrese el 2do apellido: ");
+        apellidos[1] = leerConBuffer();
+        escribirConPrintStream("Ingrese el 3er apellido: ");
+        apellidos[2] = leerConBuffer();
+        
+        int i, j;
+        String aux;
+        for (i = 0; i < apellidos.length - 1; i++) {
+            for (j = 0; j < apellidos.length - i - 1; j++) {                                                              
+                if (apellidos[j + 1].compareTo(apellidos[j]) < 0) {
+                    aux = apellidos[j+1];
+                    apellidos[j + 1] = apellidos[j];
+                    apellidos[j] = aux;
+                }
+            }
+        }
+        
+        escribirConPrintStream("Apellido 1: " + apellidos[0]);
+        escribirConPrintStream("Apellido 2: " + apellidos[1]);
+        escribirConPrintStream("Apellido 3: " + apellidos[2]);
+    }
+    
+    /**
+     * Dados cuatro números reales, la computadora indica cuál es el menor.
+     */
+    public void Ej2b(){
+        
+        double[] lista = new double[4];
+        
+        for(int i=0;i<4;i++){
+            escribirConPrintStream("Ingrese el N° " + i + ": ");
+            lista[i] = Double.parseDouble(leerConBuffer());
+        }
+    }
+    
 }
