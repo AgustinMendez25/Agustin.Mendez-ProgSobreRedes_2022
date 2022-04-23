@@ -1,7 +1,7 @@
 /*
  * Esta clase resuelve las consignas del punto 2 del trabajo práctico N°1
  */
-package tp_1.pkg0_trabajoconioarchivos2;
+package FlujoDeDatos;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -74,7 +74,7 @@ public class Punto2 {
             }
 
         } catch (IOException ex) {
-            Logger.getLogger(Punto1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Punto2.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
                 if (fw != null) {
@@ -86,7 +86,7 @@ public class Punto2 {
                 }
 
             } catch (IOException ex) {
-                Logger.getLogger(Punto1.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Punto2.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }

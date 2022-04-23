@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tp_1.pkg0_trabajoconioarchivos2;
+package FlujoDeDatos;
 
 import java.io.PrintStream;
 
@@ -19,6 +19,7 @@ public class Main {
         
         Punto1 p1 = new Punto1();
         Punto2 p2 = new Punto2();
+        Punto3 p3 = new Punto3();
         
         int[] vector1;
         int[] vector2;
@@ -35,7 +36,9 @@ public class Main {
         ps.println("\n---------Almacenado no Volatil con buffer de entrada---------"); 
         p1.almacenadoNoVolatil(2);
         
-        p2.operacionDelVector(0, vector1);
+        p3.operacionDelVector(0, vector1);
+        
+        p3.operacionDelArchivo(0);
         
     }
     

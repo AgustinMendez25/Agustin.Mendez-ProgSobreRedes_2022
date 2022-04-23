@@ -1,7 +1,7 @@
 /*
  * Esta clase resuelve las consignas del punto 1 del trabajo práctico N°1
  */
-package tp_1.pkg0_trabajoconioarchivos2;
+package FlujoDeDatos;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
