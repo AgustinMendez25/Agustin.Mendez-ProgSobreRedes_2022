@@ -1,6 +1,6 @@
-# Título del Proyecto: TP 1.0 I/0 Archivos
+# Título del Proyecto: TP 1.0 I/0 Archivos 2
 
-Este proyecto consta en la realización de 2 consignas, las cuales solicitan ingresar datos numéricos y guardarlos en memoria volátil y no volátil. Posteriormente se leen los datos guardados y se alteran generando un nuevo resultado.
+Este proyecto consta en la realización de la 3ra consigna del TP. Se leen los datos guardados en el punto 1 (vector y archivo de texto) y posteriormente se alteran para ser guardados en un nuevo archivo.
 
 ## Autores ✒️
 
