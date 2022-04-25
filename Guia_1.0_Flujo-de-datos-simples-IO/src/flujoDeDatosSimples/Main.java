@@ -56,49 +56,49 @@ public class Main {
                     s.Ej2a();
                     break;
                 case 9:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2b();
                     break;
                 case 10:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2c();
                     break;
                 case 11:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2d();
                     break;
                 case 12:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2e();
                     break;
                 case 13:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2f();
                     break;
                 case 14:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2g();
                     break;
                 case 15:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej2h();
                     break;
                 case 16:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3a();
                     break;
                 case 17:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3b();
                     break;
                 case 18:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3c();
                     break;
                 case 19:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3d();
                     break;
                 case 20:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3e();
                     break;
                 case 21:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3f();
                     break;
                 case 22:
-                    s.escribirConPrintStream("Programa finalizado");
+                    s.Ej3g();
                     break;
                 default:
-                    s.escribirConPrintStream("Número no válido");
+                    s.escribirConPrintStream("Ingrese un número válido...");
                     break;
             }
         }
@@ -119,18 +119,18 @@ public class Main {
         s.escribirConPrintStream("9 - Ejercicio 2B");
         s.escribirConPrintStream("10 - Ejercicio 2C");
         s.escribirConPrintStream("11 - Ejercicio 2D");
-        s.escribirConPrintStream("12 - Ejercicio 2F");
-        s.escribirConPrintStream("13 - Ejercicio 2G");
-        s.escribirConPrintStream("14 - Ejercicio 2H");
+        s.escribirConPrintStream("12 - Ejercicio 2E");
+        s.escribirConPrintStream("13 - Ejercicio 2F");
+        s.escribirConPrintStream("14 - Ejercicio 2G");
+        s.escribirConPrintStream("15 - Ejercicio 2H");
         s.escribirConPrintStream("-------------Ejercicio 2-------------");
-        s.escribirConPrintStream("15 - Ejercicio 3A");
-        s.escribirConPrintStream("16 - Ejercicio 3B");
-        s.escribirConPrintStream("17 - Ejercicio 3C");
-        s.escribirConPrintStream("18 - Ejercicio 3D");
-        s.escribirConPrintStream("19 - Ejercicio 3E");
-        s.escribirConPrintStream("20 - Ejercicio 3F");
-        s.escribirConPrintStream("21 - Ejercicio 3G");
-        s.escribirConPrintStream("22 - Ejercicio 3H");
+        s.escribirConPrintStream("16 - Ejercicio 3A");
+        s.escribirConPrintStream("17 - Ejercicio 3B");
+        s.escribirConPrintStream("18 - Ejercicio 3C");
+        s.escribirConPrintStream("19 - Ejercicio 3D");
+        s.escribirConPrintStream("20 - Ejercicio 3E");
+        s.escribirConPrintStream("21 - Ejercicio 3F");
+        s.escribirConPrintStream("22 - Ejercicio 3G");
     }
     
 }
