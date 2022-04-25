@@ -1,6 +1,5 @@
-# Título del Proyecto: TP 1.0 I/0 Archivos
-
-Este proyecto consta en la realización de 2 consignas, las cuales solicitan ingresar datos numéricos y guardarlos en memoria volátil y no volátil. Posteriormente se leen los datos guardados y se alteran generando un nuevo resultado.
+# Título del Proyecto: Guia 1.0 Flujo de datos
+Se realiza la guía correspondiente al flujo de datos, en la cual se solicitan diversos ejercicios de práctica a fin de utilizar distintas clases (reader, system, entre otros) para leer y escribir archivos.
 
 ## Autores ✒️
 
