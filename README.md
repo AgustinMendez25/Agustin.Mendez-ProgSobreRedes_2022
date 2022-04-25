@@ -1,6 +1,7 @@
-# Título del Proyecto: TP 1.0 I/0 Archivos 2
+Guia_1.0_Flujo-de-datos-simples-IO
+# Título del Proyecto: Guia 1.0 Flujo de datos
 
-Este proyecto consta en la realización de la 3ra consigna del TP. Se leen los datos guardados en el punto 1 (vector y archivo de texto) y posteriormente se alteran para ser guardados en un nuevo archivo.
+Se realiza la guía correspondiente al flujo de datos, en la cual se solicitan diversos ejercicios de práctica a fin de utilizar distintas clases (reader, system, entre otros) para leer y escribir archivos.
 
 ## Autores ✒️
 
