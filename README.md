@@ -1,7 +1,7 @@
-Guia_1.0_Flujo-de-datos-simples-IO
-# Título del Proyecto: Guia 1.0 Flujo de datos
 
-Se realiza la guía correspondiente al flujo de datos, en la cual se solicitan diversos ejercicios de práctica a fin de utilizar distintas clases (reader, system, entre otros) para leer y escribir archivos.
+# Título del Proyecto: TP 1.1 IO Entradas de datos
+
+Se realiza el TP de práctica de entrada de datos, en el cual se solicita crear un programa donde el usuario ingrese una operación (+ - * /) y se realice la cuenta. Se utiliza un while para que el usuario ingrese infinitamente operaciones hasta que desee salir.
 
 ## Autores ✒️
 
